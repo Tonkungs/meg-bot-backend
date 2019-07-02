@@ -1,0 +1,8 @@
+type Conversation struct {
+	PeopleID      int    `json:"people_id"`
+	IsOwn         bool   `json:"is_own"`
+	DisplayPhoto  string `json:"display_photo"`
+	DisplayName   string `json:"display_name"`
+	CreatedAt     string `json:"created_at"`
+	UpdateAt      string `json:"update_at"`
+}
